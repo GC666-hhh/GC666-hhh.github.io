@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>电影推荐</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>哪吒之魔童闹海</h1>
+        <nav>
+            <ul>
+                <li><a href="#">故事情节</a></li>
+                <li><a href="https://piaofang.maoyan.com/dashboard/movie">最新票房</a></li>
+                <li><a href="https://movie.douban.com/subject/34780991/?from=rec">电影评分</a></li>
+                <li><a href="https://www.douyin.com/topic/7467699775749408808">预告片</a></li>                
+            </ul>
+        </nav>  
+    </header>   
+    <main>
+
+        <section class="slideshow">
+            <div class="slider-container">
+                <button class="prev-btn">&lt;</button>
+                <div class="slider">
+                    <img class="slide" src="images/first/轮播图1.jpg" alt="Slide 1">
+                    <img class="slide" src="images/first/轮播图2.jpg" alt="Slide 2">
+                    <img class="slide" src="images/first/轮播图3.jpg" alt="Slide 3">
+                    <img class="slide" src="images/first/轮播图4.jpg" alt="Slide 4">
+                    <img class="slide" src="images/first/轮播图5.jpg" alt="Slide 5">
+                    <img class="slide" src="images/first/轮播图6.jpg" alt="Slide 6">
+                    <img class="slide" src="images/first/轮播图7.jpg" alt="Slide 7">
+                    <img class="slide" src="images/first/轮播图8.jpg" alt="Slide 8">
+                </div>
+                <button class="next-btn">&gt;</button>
+                <div class="slide-info">
+                    <h2 class="slide-title"></h2>
+                    <p class="slide-content"></p>
+                </div>
+            </div>
+        </section>
+
+        <section class="slogan">
+            <blockquote>" 山高路远 一起攀登 "</blockquote>
+        </section>
+        
+        <section class="advertise">
+            <img src="images/second/宣传图1.jpg" alt="宣传图">
+            <div class="info">
+                <h2>大年初一！<br>魔童归来 风火开年</h2>
+                <p>哪怕被撕裂，也要带着“痛”倔强成长</p>
+            </div>
+        </section>
+
+        <section class="figure">
+            <h2>人物角色</h2>
+
+            <div>
+                <img src="images/third/人物图1.jpg" alt="哪吒">
+                <h3>哪吒</h3>
+                <p>“我命由我不由天！”</p>
+            </div>
+            <div>
+                <img src="images/third/人物图2.jpg" alt="敖丙">
+                <h3>敖丙</h3>
+                <p>“若前方无路，我便踏出一条路！”</p>
+            </div>
+            <div>
+                <img src="images/third/人物图3.jpg" alt="太乙真人">
+                <h3>太乙真人</h3>
+                <p>“修仙修仙，首先修的就是精气神！”</p>
+            </div>
+            <div>
+                <img src="images/third/人物图4.jpg" alt="殷夫人">
+                <h3>殷夫人</h3>
+                <p>“看不起老娘啊，我也堂堂武将！”</p>
+            </div>
+            <div>
+                <img src="images/third/人物图5.jpg" alt="李靖">
+                <h3>李靖</h3>
+                <p>“我命由我不由天，这是爹教给你的道理。”</p>
+            </div>
+            <div>
+                <img src="images/third/人物图6.jpg" alt="申公豹">
+                <h3>申公豹</h3>
+                <p>“人心中的成见是一座大山，任你怎么努力都休想搬动。”</p>
+            </div>
+            <div>
+                <img src="images/third/人物图7.jpg" alt="敖光">
+                <h3>敖光</h3>
+                <p>“龙族的荣耀，只能靠自己去夺回。”</p>
+            </div>
+            <div>
+                <img src="images/third/人物图8.jpg" alt="敖闰">
+                <h3>敖闰</h3>
+                <p>“有兴趣做个交易吗，大哥！”</p>
+            </div>
+            <div>
+                <img src="images/third/人物图9.jpg" alt="敖顺">
+                <h3>敖顺</h3>
+                <p>“北海龙王！”</p>
+            </div>
+            <div>
+                <img src="images/third/人物图10.jpg" alt="敖钦">
+                <h3>敖钦</h3>
+                <p>“南海龙王！”</p>
+            </div>
+            <h2>
+                <ul>
+                    <li><a href="https://baike.baidu.com/starmap/view?lemmaId=61115689&nodeId=a800080137bc4cd97070f357">了解更多></a></li> </h2>
+                </ul>
+             </section>
+
+            <section class="newsletter">
+                <p>素材来源于网络，如有侵权，请联系！<br>制作团队：宫子豪、崔昌爱、王巅、张翠翠、闫青春</p>
+                <form>
+                    <input type="email" placeholder="请输入您的 Email" required>
+                    <button type="submit">送出</button>
+                </form>
+            </section>
+    </main>
+    <footer>
+        <p>Copyright © 2023 电影推荐 All Rights Reserved.</p>
+    </footer>
+    <div class="modal-overlay" id="storyModalOverlay">
+    <div class="modal-content">
+      <button class="modal-close">&times;</button>
+      <h2>《哪吒之魔童闹海》故事情节</h2>
+      <div class="modal-scroll">
+        <p>《哪吒之魔童闹海》承接前作《哪吒之魔童降世》的剧情，讲述了哪吒与敖丙在天劫之后的故事。以下是该电影的主要故事情节：
+            <br><strong><em>天劫之后：</em></strong>哪吒与敖丙在经历天劫后，灵魂得以保存，但肉身即将消散。太乙真人计划用七色宝莲为二人重塑肉身，但这一过程充满艰难险阻。
+            <br><strong><em>龙族的复仇：</em></strong>申公豹和龙族误以为敖丙已死，为了报复，他们用西海龙王敖闰的裂空爪引来海底岩浆及妖兽，发起陈塘关大战。
+            <br><strong><em>哪吒的抉择：</em></strong>在大战中，太乙真人在为二人重塑肉身。申公豹发现敖丙未死，且太乙真人已为其重塑了肉身（但不稳定），正在为哪吒重塑。申公豹欲杀哪吒，但被敖丙挡住，导致敖丙肉身崩溃，只剩魂魄。
+            <br><strong><em>敖丙与哪吒的合体：</em></strong>东海龙王敖光魂魄来到陈塘关，几人商议后决定，敖丙灵魂附在哪吒肉身上，七日内哪吒通过阐教的升仙考核，拿到玉液琼浆，复活七色彩莲，再为敖丙塑造肉身，二人方可均得救。
+            <br><strong><em>升仙考核：</em></strong>太乙真人率哪吒前往玉虚宫，准备升仙考核。考核过程中，哪吒与敖丙的混合体经历了三次变身，最终在天元鼎的世纪大战中，战胜了无量仙翁，揭露了其阴谋。
+            <br><strong><em>最终对决：</em></strong>哪吒与敖丙在炼丹炉中经历火中涅槃，哪吒从魔丸少年变成了英俊少年，敖丙也获得了新生。最终，他们与东海龙王敖光一起，战胜了南海龙王、西海龙王、北海龙王，无量仙翁被打倒。
+            <br>这部电影不仅延续了前作的精彩，还在剧情和制作上进行了大胆创新，为观众带来了一场全新的视听盛宴。</p>
+      </div>
+    </div>
+  </div>
+    <!-- 引入 JavaScript 文件 -->
+    <script src="script.js"></script>
+</body>
+</html>
